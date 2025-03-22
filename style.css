@@ -130,3 +130,70 @@ body{
 }
 
 
+
+@media (max-width: 1024px) {
+    .Navbar ul {
+        flex-direction: row;
+    }
+    .Navbar ul li {
+        margin: 0 10px;
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    .heading {
+        font-size: 2rem;
+    }
+    .description {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .Navbar {
+        padding: 10px 0;
+    }
+    .Navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Navbar ul li {
+        margin: 5px 0;
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .container {
+        margin-top: 70px;
+    }
+    .heading {
+        font-size: 1.8rem;
+    }
+    .description {
+        font-size: 0.9rem;
+        padding: 0 15px;
+    }
+    .container1, .container2, .container3, .container4 {
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media (max-width: 480px) {
+    
+
+    .Navbar ul li {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    .heading {
+        font-size: 1.5rem;
+    }
+    .description {
+        font-size: 0.8rem;
+    }
+    .container1, .container2, .container3, .container4 {
+        height: 40vh;
+    }
+}

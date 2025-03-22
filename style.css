@@ -76,33 +76,42 @@
     padding: 0 20px;
 }
 
-.container1{
-    background-image: url('https://www.gmrsports.in/static-assets/waf-images/78/8c/45/16-9/nilxt4oCfY.png?v=12.64&w=600');
+body{
+    background-image: url('./images/flag.jpg');
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
    
 }
-.container2{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6-TsT-1wsnfxThXZuTeGOzuSKTrRP670ZgQ&s');
-    height: 100vh;
+.container1{
+    background-image: url('./images/kabaddi.jpg');
     width: 100%;
+    height: 100vh;
     background-size: cover;
     background-attachment: fixed;
 }
-.container3{
-    background-image: url('https://keralahockeyonline.com/images/resource/hiabt2.jpg');
-    height: 100vh;
+.container2{
+    background-image: url('./images/volleyball.jpg');
     width: 100%;
+    height: 100vh;
     background-size: cover;
     background-attachment: fixed;
 
 }
-.container4{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkGIil1MNInhkCuPe2b_dbyTu-K4AqXuvNAw&s");
-    height: 100vh;
+.container3{
+    background-image: url("./images/hockey.jpg");
     width: 100%;
+    height: 100vh;
+   
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container4{
+    background-image: url("./images/badminton.jpg");
+    width: 100%;
+    height: 100vh;
+   
     background-size: cover;
     background-attachment: fixed;
 }
@@ -119,37 +128,5 @@
 
 
 }
-@media (max-width: 768px) {
-    .Navbar ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    .Navbar ul li {
-        margin: 5px 0;
-        font-size: 16px;
-    }
-    .heading {
-        font-size: 1.8rem;
-    }
-    .description {
-        font-size: 0.9rem;
-    }
-    /* Disable parallax effect on mobile */
-    .container1, .container2, .container3, .container4 {
-        background-attachment: scroll;
-        height: 70vh;
-    }
-}
 
-@media (max-width: 480px) {
-    .heading {
-        font-size: 1.5rem;
-    }
-    .description {
-        font-size: 0.8rem;
-        padding: 0 10px;
-    }
-    .container1, .container2, .container3, .container4 {
-        height: 50vh;
-    }
-}
+
